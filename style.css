@@ -23,7 +23,6 @@ body {
 }
 .head {
   margin: auto;
-  display: block;
   align-content: center;
   background-color: rgb(81, 210, 81);
   width: 125px;
@@ -35,12 +34,32 @@ body {
 .head:hover {
   width: 185px;
   border-radius: 30em 30em 0 0;
+  transition: 1s all;
+}
+.head:hover .eyes {
+  transition: 1s all;
+  transform: translateX(60px);
+}
+.head2 {
+  margin: auto;
+  align-content: center;
+  background-color: rgb(81, 210, 81);
+  width: 125px;
+  height: 60px;
+  border-radius: 100px 100px 0 0;
+  text-align: center;
+  transition: 1s all;
+}
+.head2:hover {
+  width: 185px;
+  border-radius: 30em 30em 0 0;
 }
 .eyes {
   display: flex;
   margin-top: 30px;
   width: 125px;
   justify-content: space-around;
+  transition: 1s all;
 }
 
 .left_eye {
@@ -66,16 +85,11 @@ body {
   flex-direction: row;
   width: fit-content;
 }
-.torso {
-  margin-top: 2px;
-  background-color: rgb(81, 210, 81);
-  width: 130px;
-  height: 125px;
-  border-radius: 10px;
-}
+
 .torso2:hover {
   transform: translateX(10px);
 }
+
 .torso2-2:hover {
   transform: translateX(-10px);
 }
