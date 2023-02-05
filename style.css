@@ -1,0 +1,151 @@
+body {
+  text-align: center;
+}
+.robots {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+}
+.robot2 {
+  margin-left: 10px;
+}
+.android {
+  margin: auto;
+
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.head {
+  margin: auto;
+  display: block;
+  align-content: center;
+  background-color: rgb(81, 210, 81);
+  width: 125px;
+  height: 60px;
+  border-radius: 100px 100px 0 0;
+  text-align: center;
+  transition: 1s all;
+}
+.head:hover {
+  width: 185px;
+  border-radius: 30em 30em 0 0;
+}
+.eyes {
+  display: flex;
+  margin-top: 30px;
+  width: 125px;
+  justify-content: space-around;
+}
+
+.left_eye {
+  background-color: rgb(246, 247, 248);
+  width: 15px;
+  height: 10px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.right_eye {
+  background-color: rgb(246, 247, 248);
+  width: 15px;
+  height: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-top: 35px;
+}
+.upper_body {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+.torso {
+  margin-top: 2px;
+  background-color: rgb(81, 210, 81);
+  width: 130px;
+  height: 125px;
+  border-radius: 10px;
+}
+.torso2:hover {
+  transform: translateX(10px);
+}
+.torso2-2:hover {
+  transform: translateX(-10px);
+}
+.torso2 {
+  margin-top: 2px;
+  background-color: rgb(81, 210, 81);
+  width: 65px;
+  height: 125px;
+  border-radius: 10px 0 0 10px;
+  transition: 0.25s all;
+}
+.torso2-2 {
+  margin-top: 2px;
+  background-color: rgb(81, 210, 81);
+  width: 65px;
+  height: 125px;
+  border-radius: 0 10px 10px 0;
+  transition: 0.25s all;
+}
+.left_arm {
+  width: 30px;
+  height: 100px;
+  background-color: rgb(81, 210, 81);
+  margin-right: 5px;
+  border-radius: 100px;
+  transition: 0.25s all;
+}
+.left_arm:hover {
+  transform: rotate(135deg);
+  height: 5em;
+  position: relative;
+  bottom: 30px;
+}
+.right_arm {
+  width: 30px;
+  height: 100px;
+  background-color: rgb(81, 210, 81);
+  margin-left: 5px;
+  border-radius: 100px;
+  transition: 0.25s all;
+}
+.right_arm:hover {
+  transform: rotate(-135deg);
+  height: 5em;
+  position: relative;
+  bottom: 30px;
+}
+.lower_body {
+  position: relative;
+  bottom: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left_leg {
+  width: 30px;
+  height: 70px;
+  border-radius: 0 0 100px 100px;
+  background-color: rgb(81, 210, 81);
+  transition: 0.25s all;
+}
+.right_leg {
+  width: 30px;
+  height: 70px;
+  border-radius: 0 0 100px 100px;
+  background-color: rgb(81, 210, 81);
+  transition: 0.25s all;
+}
+.right_leg:hover {
+  transform: rotate(-45deg);
+}
+.left_leg:hover {
+  transform: rotate(45deg);
+}
